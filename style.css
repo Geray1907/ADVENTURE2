@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+#headConta {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+.logoConta {
+    font-weight: 300;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style-type: none;
+}
+
+li {
+    font-weight: 400;
+}
+
+.fa-bars {
+    display: none;
+}
+
+.centerHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contaBox {
+    position: relative;
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.b2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 3;
+}
+
+.imgBox {
+    width: 272px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.imgBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.headerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    z-index: 5;
+    color: white;
+    font-family: "Open Sans";
+}
+
+span {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.headerButton {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 20px;
+}
+
+.fa-bars {
+    display: none;
+}
+
+.u-svg-link {
+    width: 70px;
+    fill: #ff5126;
+}
+
+#section1 {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.firstPageArticleConta {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    gap: 30px;
+}
+
+.firstPageTitleConta {
+    font-weight: 400;
+}
+
+.firstPageDetailsConta {
+    line-height: 25px;
+}
+
+.line {
+    width: 54px;
+    border: 1px solid #ff5126;
+    border-radius: 20px;
+}
+
+#section2 {
+    width: 100vw;
+    height: 70vh;
+    background-image: url(assets/2ea362072d608c72415606b517b30995.jpeg);
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.secondPageArticle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.secondPageTitleConta {
+    color: #ff5126;
+    font-size: 60px;
+}
+
+#section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.thirdPageBox {
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: white;
+    width: 1100px;
+    padding: 20px;
+}
+
+.thirdPageArticle {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+    width: 500px;
+    border: 1px solid rgb(205, 205, 205);
+}
+
+.thirdPageArticleInfo {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: grey;
+}
+
+.thirdPageArticleTitle {
+    font-size: 20px;
+}
+
+.thirdPageArticleDetails {
+    font-style: italic;
+}
+
+.thirdPageImage {
+    width: 498px;
+}
+
+.thirdPageButton {
+    background-color: #ff5126;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    font-size: 17px;
+}
+
+#section4 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(assets/5b3b651664a1977b1d76d6d8ec151dc9.jpeg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fourthPageArticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.fourthPageDetails {
+    width: 700px;
+}
+
+.fourthPageTitle {
+    font-size: 70px;
+    color: #ff5126;
+}
+
+.fourthPageButton {
+    border: none;
+    background-color: #ff5126;
+    font-size: 20px;
+    padding: 10px 30px;
+    color: white;
+    font-family: "Open Sans";
+}
+
+#section5 {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fifthPageBox {
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: white;
+}
+
+.fifthPageArticle {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgb(216, 216, 216);
+    width: 300px;
+    height: 220px;
+}
+
+.fifthPageArticleInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fifthPageCategory {
+    font-size: 15px;
+}
+
+.fifthPageQuantity {
+    font-size: 100px;
+    color: #ff5126;
+}
+
+.footerConta {
+    width: 100vw;
+    height: 40vh;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerArticle {
+    width: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footerArticleRow {
+    display: flex;
+}
+
+.line3 {
+    width: 1200px;
+    border: 1px solid gray;
+}
+
+.organizationTitle {
+    color: white;
+}
+
+/* Responsive Design - start */
+
+@media (max-width: 600px) {
+
+    ul {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+
+    #headConta {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .b2 {
+        display: none;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .imgBox {
+        left: 60px;
+    }
+
+    #section1 {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    #section2 {
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .secondPageTitleConta,
+    .secondPageDetailsConta {
+        text-align: center;
+    }
+
+    .secondPageTitleConta {
+        font-size: 40px;
+    }
+
+    .thirdPageArticle {
+        width: fit-content;
+        width: 380px;
+    }
+
+    .thirdPageBox {
+        width: fit-content;
+        width: 378px;
+        padding: 0;
+    }
+
+    .thirdPageImage {
+        width: fit-content;
+        width: 378px;
+    }
+
+    #section4 {
+        width: fit-content;
+        height: fit-content;
+        padding-bottom: 150px;
+    }
+
+    #section5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fifthPageBox {
+        bottom: 100px;
+        width: 300px;
+        height: fit-content;
+        padding: 20px;
+    }
+
+    .fourthPageDetails {
+        width: fit-content;
+    }
+
+    .fourthPageTitle {
+        font-size: 40px;
+    }
+
+    .footerConta {
+        width: fit-content;
+    }
+
+    .line3 {
+        width: 300px;
+    }
+
+    .footerArticle {
+        width: fit-content;
+    }
+
+    .footerArticleRow {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
